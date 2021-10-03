@@ -37,7 +37,6 @@ namespace CarRentalApp
 
                 user.password = Utils.HashPassword(password);
                 _db.SaveChanges();
-
                 MessageBox.Show("Password was reset successfully");
                 Close();
             }
